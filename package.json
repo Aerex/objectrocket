@@ -1,0 +1,33 @@
+{
+  "name": "objectrocket",
+  "version": "1.0.0",
+  "description": "Coding Interview",
+  "engines": {
+    "node": "^6.9.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests --recursive",
+    "build": "react-scripts build",
+    "start": "nf --port 3000 start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "foreman": "^2.0.0",
+    "lodash": "^4.17.4",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0",
+    "react-scripts": "^1.0.11"
+  },
+
+   "proxy": "http://localhost:3100"
+}
