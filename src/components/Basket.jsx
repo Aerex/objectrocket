@@ -51,7 +51,7 @@ class Basket extends Component {
 	
 	handleClear(e){
 		e.preventDefault();
-		axios.get(`${this.props.context}/basket`)
+		axios.delete(`${this.props.context}/clear`)
 			.then(function (res) {
 				console.log('clear');
 			})

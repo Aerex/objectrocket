@@ -46,10 +46,9 @@ var Store = function() {
 			status: constant.PASS
 		}
 
-	},
+	};
 
 	this.basket = function() {
-			console.log('BASKET ' + JSON.stringify(basket));
 			let currentBasket = this.currentBasket;
 			let specials = this.specials || [];
 

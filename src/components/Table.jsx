@@ -8,8 +8,8 @@ class Table extends Component {
 	}
 	render(){
 		let rows = [];
-		this.props.data.items.forEach(function(item){
-			rows.push(<TableRow code={item.code} special={item.special} price={item.price}/>);
+		this.props.data.items.forEach(function(item, index){
+			rows.push(<TableRow key={index} code={item.code} special={item.special} price={item.price}/>);
 		});
 		return (
 			<table>
